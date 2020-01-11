@@ -21,7 +21,7 @@ document.body.append(input);
 
 
 const button = document.createElement('button');
-button.textContent = '정답은?ㄴ';
+button.textContent = '정답은?';
 form.append(button);
 
 const resultDiv = document.createElement('div');
