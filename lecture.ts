@@ -1,7 +1,3 @@
-console.log('hello typescript');
-console.log('hello javascirpt');
-const abc: number = 1;
-console.log(abc);
 
 
 let numberOne = Math.ceil(Math.random()*9);
