@@ -21,7 +21,7 @@ document.body.append(resultDiv);
 form.addEventListener('submit', function (e) {
     e.preventDefault();
     if (result === Number(input.value)) {
-        resultDiv.textContent = '딩동댕';
+        resultDiv.textContent = '딩동댕동.';
         numberOne = Math.ceil(Math.random() * 9);
         numberTwo = Math.ceil(Math.random() * 9);
         result = numberOne * numberTwo;
